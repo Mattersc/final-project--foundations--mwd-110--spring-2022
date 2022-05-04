@@ -5,11 +5,11 @@
 @import 'about';
 
 body{
-  font-family: $font-stack--reading;
   background: $primary-color;
   color: #fff;
   height: 100vh;
   line-height: 1;
+  overflow: hidden;
 }
 
 h1{
@@ -17,6 +17,7 @@ h1{
   font-weight: 450;
   font-size: 50px;
 }
+
 h2{
   font-family: $font-stack--headings;
   font-weight: 450;
@@ -64,18 +65,8 @@ main{
 
 img{
   max-width: 100%;
-  height: 230px;
-}
-
-p{
-  height: 100%;
-  overflow : hidden;
-  text-align: center;
-  align-items: center;
-  line-height: 30px;
-  width: 1000px;
-  padding-bottom: 263px;
-  padding-top: 50px;
+  height: 400px;
+  overflow: none;
 }
 
 footer{
@@ -90,8 +81,43 @@ footer{
 
 .barry{
   position: relative;
-  width: 400px;
-  top: -240px;
+  top: -630px;
+  left: 1250px;
   float: left;
   margin: auto 5px;
+}
+
+.about-p{
+  height: 100%;
+  overflow : hidden;
+  text-align: center;
+  align-items: center;
+  line-height: 30px;
+  width: 1100px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 13px;
+  font-family: $font-stack--reading;
+  font-size: 18px;
+}
+
+.quote{
+  font-size: 30px;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  line-height: 40px;
+  width: 1100px;
+  padding-bottom: 263px;
+  padding-top: 10px;
+  font-family: $font-stack--reading;
+  color:#949494;
+}
+
+.index-a{
+  text-align: left;
+  width: 12%;
+  line-height: 40px;
+  position: fixed;
+  padding-top: 160px;
 }
