@@ -11,54 +11,53 @@ body{
   line-height: 1;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1{
   font-family: $font-stack--headings;
   font-weight: 450;
+  font-size: 50px;
+}
+h2{
+  font-family: $font-stack--headings;
+  font-weight: 450;
+  font-size: 100px;
+  letter-spacing: 7px;
 }
 
-a{
-  color:#fff;
-  text-decoration: none;
+h3{
+  font-family: $font-stack--headings;
+  font-weight: 450;
+  font-size: 40px;
 }
 
 ul{
-  border-bottom: 4px solid #000f;
-  border-right: 4px solid #000f;
-  border-left: 2px solid #000f;
-  border-top: 2px solid #000f;
+  border: 4px solid #000f;
+  border-radius: 15px;
 }
 
 li a{
   display: block;
-  text-decoration: none;
   color: #000000;
+  text-decoration: none;
   text-align: center;
   background-color: #dddddd;
   border-bottom: 1px solid #000f;
+  border-radius: 15px;
 }
 
 header{
-  position: fixed;
-  z-index: 2;
-  padding: 1rem;
+  z-index: 1;
+  padding: 0rem;
   width: 100%;
 }
 
 nav{
-  text-align: right;
+  text-align: left;
   width: 12%;
-  height: 100%;
   line-height: 40px;
 }
 
 main{
-  height: 100%;
-  width: 100%;  
+  overflow: none; 
 }
 
 footer{
