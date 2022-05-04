@@ -1,2 +1,10 @@
 $font-stack--headings: serif;
 $font-stack--reading: sans-serif;
+$primary-color: #000000;
+$secondary-color: #303030;
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
