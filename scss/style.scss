@@ -25,15 +25,21 @@ a{
   color:#fff;
   text-decoration: none;
 }
+
 ul{
-  background-color: #000000;
-  height: 100%;
+  border-bottom: 4px solid #000f;
+  border-right: 4px solid #000f;
+  border-left: 2px solid #000f;
+  border-top: 2px solid #000f;
 }
 
 li a{
   display: block;
   text-decoration: none;
-  color: #a36a00;
+  color: #000000;
+  text-align: center;
+  background-color: #dddddd;
+  border-bottom: 1px solid #000f;
 }
 
 header{
@@ -47,6 +53,7 @@ nav{
   text-align: right;
   width: 12%;
   height: 100%;
+  line-height: 40px;
 }
 
 main{
@@ -61,5 +68,5 @@ footer{
   bottom: 1rem;
   text-align: right;
   padding: 1rem;
-  color: #a36a00;
+  color: #fff;
 }
