@@ -5,7 +5,7 @@
 
 body{
   background-color: #303030;
-  height: 100vh;
+  height: 100vw;
   line-height: 1;
 }
 
@@ -75,13 +75,14 @@ img{
 
 footer{
   font-size: .8rem;
-  position: fixed;
+  position: absolute;
   right: .8rem;
   bottom: 1rem;
   text-align: right;
   padding: 1rem;
   color: #fff;
   font-family: $font-stack--reading;
+  height: -20vw;
 }
 
 .barry{
@@ -115,7 +116,7 @@ footer{
   padding-bottom: 153px;
   padding-top: 120px;
   font-family: $font-stack--reading;
-  color:#949494;
+  color:#ffffff;
 }
 
 .index-a{
