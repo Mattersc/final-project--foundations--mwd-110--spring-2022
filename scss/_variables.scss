@@ -6,24 +6,3 @@ $secondary-color: #6b6b6b;
 *{
   box-sizing:border-box;
 }
-
-.landing{
-  height: 100%;
-  background-size: cover;
-  padding-top: 30vh;
-  overflow : hidden;
-  text-align: center;
-  align-items: center;
-  line-height: 100px;
-}
-
-.about{
-  height: 100%;
-  background-size: cover;
-  padding-top: 2vh;
-  padding-left: 8vh;
-  overflow : hidden;
-  text-align: left;
-  align-items: center;
-  line-height: 110px;
-}
